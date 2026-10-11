@@ -1,0 +1,29 @@
+{
+  "name": "taixiu-vip-v3",
+  "version": "3.0.0",
+  "description": "API dự đoán Tài Xỉu — Học online từ API (Dice Rules + Streak)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "taixiu",
+    "prediction",
+    "fastify",
+    "api",
+    "dice",
+    "streak"
+  ],
+  "author": "cskhgiabao",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
